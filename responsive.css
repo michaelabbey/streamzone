@@ -1,0 +1,183 @@
+@media only screen and (min-width: 300px) and (max-width: 320px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        font-family: 'Montserrat', sans-serif;
+    }
+    html{
+        font-size: 80%;
+    }
+    header{
+        height: 60vh;
+    }
+    .banner-txt-form .banner-text h1{
+        font-size: 21px;
+        font-weight: 900;
+        padding-bottom: 2rem;
+    }
+    .banner-text form{
+        gap: 7px;
+    }
+    #email-summit-btn{
+        width: fit-content;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-left: none;
+    
+        background: var(--red);
+        color: var(--white);
+    }
+    /*  */
+    .hero-2{
+        text-align: center;
+    }
+    .hero-2 h1{
+        font-weight: 800;
+        margin-bottom: 20px;
+        margin-top: 4rem;
+    
+    }
+    .hero-2 p{
+        font-size: 15px;
+    }
+    /* HERO 3 */
+    #inner-box{
+        display: none;
+    }
+    /* HERO 6 */
+    #hero-6 .accordion .card h2 button{
+        color: var(--white);
+        font-size: 15px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    #accordian-subscribe p{
+        font-size: 8px;
+    }
+    /* HERO 6 DONE */
+}
+
+/* ---------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        font-family: 'Montserrat', sans-serif;
+    }
+    html{
+        font-size: 70%;
+    }
+    header{
+        height: 60vh;
+    }
+    .banner-txt-form .banner-text h1{
+        font-size: 20px;
+        font-weight: 900;
+        padding-bottom: 2rem;
+    }
+    .banner-text form{
+        gap: 7px;
+    }
+    #email-summit-btn{
+        width: fit-content;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-left: none;
+    
+        background: var(--red);
+        color: var(--white);
+    }
+    /* HERO 2 */
+    .hero-2 h1{
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 4rem;
+        text-align: center;
+    
+    }
+    .hero-2 p{
+        font-size: 12px;
+        text-align: center;
+    }
+    /* HERO 2 DONE */
+
+    /* HERO 3 */
+    #inner-box{
+        display: none;
+    }
+    .movie-save p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .hero-3 h1{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 4rem;
+        text-align: center;
+    
+    }
+    /* HERO 4 */
+    #hero4 h1{
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    #hero4 p{
+        font-size: 12px;
+        text-align: center;
+    }
+    /* HERO 4 DONE*/
+
+    /* HERO 5 */
+    .hero-5 h1{
+        font-weight: 600;
+        font-size: 23px;
+        margin-top: 4rem;
+        text-align: center;
+    
+    }
+    .hero-5 p{
+        font-size: 12px;
+        text-align: center;
+    }
+    /* HERO 6 */
+    #hero-6 .accordion .card h2 button{
+        color: var(--white);
+        font-size: 15px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    #accordian-subscribe p{
+        font-size: 8px;
+        text-align: center;
+    }
+    /* HERO 6 DONE */
+
+    /* LOGINPAGE */
+    #loginpage{
+        background: black;
+        border-bottom: 6px solid #262525;
+    }
+    .loginpage{
+        opacity: 1;
+        color: #fff;
+        padding: 3rem 4rem;
+    }
+    #new-to-netlix{
+        text-align: center;
+    }
+}
